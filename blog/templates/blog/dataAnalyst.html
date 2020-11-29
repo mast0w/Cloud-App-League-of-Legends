@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Accueil</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'axionaut_app/css/style.css' %}" />
+</head>
+
+<body>
+    <div id="Textebienv">
+        <h1 class="bienve"> Aplication cloud : data analyst</h1>
+    </div>
+    <div>
+        <strong>Requête 1</strong>
+        <p>Quels sont les sorts d’invocateurs les plus assignés en touche D (touche du clavier la plus importante dans ce jeu ? Autrement dit, quels sont les sorts d’invocateurs considérés comme les plus importants ? (Sort d’invocateur 1 = touche D sur le clavier, sort d’invocateur 2 = touche F sur le clavier) </p>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+
+    <br> 
+
+    <div>
+        <strong>Requête 2</strong>
+        <p>Quels sont les champions qui se retrouvent dans les parties les plus longues ?  </p>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+
+    <br>
+
+    <div>
+        <strong>Requête 3</strong>
+        <p>Est-ce que des joueurs ont des comportements toxiques comme souvent écourter des parties ?  </p>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+
+    <br>
+
+    <div>
+        <strong>Requête 4</strong>
+        <p>Pour chaque champion, quel est la position (top, jungle...) la plus assignée ? </p>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <button type="submit" class="btn btn-outline-primary" data-mode="down" onclick="location.href='{% url 'home' %}'">Retour</button>
+
+
+
+
+
+</body>
+
+</html>

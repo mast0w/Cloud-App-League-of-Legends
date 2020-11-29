@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>User</title>
+    <link rel="stylesheet" href="{% static 'style2.css' %}">
+</head>
+
+<body>
+    <div id="Textebienv">
+        <h1 class="bienve"> Aplication cloud : user</h1>
+    </div>
+    <div>
+        <strong>Requête 1</strong>
+        <p>Quels sont les champions avec le meilleur taux de victoire ? </p>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+
+    <br> 
+
+    <div>
+        <strong>Requête 2</strong>
+        <p>Quels sont les champions les plus choisis ? </p>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+
+    <br>
+
+    <div>
+        <strong>Requête 3</strong>
+        <p>Est-ce que les équipes qui font tomber une tourelle en premier gagnent plus souvent la partie ? </p>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+
+    <br>
+
+    <div>
+        <strong>Requête 4</strong>
+        <p>Quel est le taux de victoire d’un champion contre un autre champion ? </p>
+        <label for="champ1">Champion 1 :</label>
+        <input type="text" id="champ1">
+        <br>
+        <label for="champ2">Champion 2 :</label>
+        <input type="text" id="champ2"><br>
+        <br>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Go !</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <button type="submit" class="btn btn-outline-primary" data-mode="down" onclick="location.href='{% url 'home' %}'">Retour</button>
+
+
+</body>
+
+</html>

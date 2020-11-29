@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('https://s1.qwant.com/thumbr/0x380/9/d/75c02081f5252f804daae27db16b79c6b59e3a257bbfb4176bf3346979b059/singed.jpg?u=https%3A%2F%2Fwww.gamersdecide.com%2Fsites%2Fdefault%2Ffiles%2Fcontent-images%2Fnews%2F2016%2F10%2F30%2Fwhy-do-people-buy-league-legends-accounts%2Fsinged.jpg&q=0&b=1&p=0&a=1') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: rgb(255, 255, 255);
+    font: small-caps bold 24px/1 sans-serif;
+    text-shadow: #000000 1px 1px, #000000 -5px 5px, #000000 -1px -1px, #000000 1px -1px;    
+
+}
+
+*
+{
+	text-align: center;
+}
+
+
+
+td
+{
+    border: 3px solid black;
+    padding: 8px;
+}
+
+mark
+{
+	background-color: red;
+}
+

@@ -1,0 +1,40 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('https://s2.qwant.com/thumbr/0x0/e/7/48e56041cf5c3670437aa28a4fa3e04e1c7c631e3d674d6b99cdc6767b8686/League_Of_Legends_HD_Wallpaper19.jpg?u=http%3A%2F%2Fwallpapersdsc.net%2Fwp-content%2Fuploads%2F2015%2F11%2FLeague_Of_Legends_HD_Wallpaper19.jpg&q=0&b=1&p=0&a=1') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: rgb(255, 255, 255);
+    font: small-caps bold 50px/1 sans-serif;
+    text-shadow: #000000 1px 1px, #000000 -5px 5px, #000000 -1px -1px, #000000 1px -1px;    
+}
+
+*
+{
+	text-align: center;
+}
+
+
+
+td
+{
+    border: 3px solid black;
+    padding: 8px;
+}
+
+mark
+{
+	background-color: red;
+}
+
+bouton.bouton {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    background:url(http://css.mammouthland.net/images/boutonnoir.png) no-repeat;
+    color:white;
+    text-decoration:none;
+    }
+

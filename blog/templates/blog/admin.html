@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Accueil</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'axionaut_app/css/style.css' %}" />
+</head>
+
+<body>
+    <div id="Textebienv">
+        <h1 class="bienve"> Aplication cloud : administrateur</h1>
+
+    </div>
+    <p>Vous voulez voir :</p>
+    <div>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Distribution</button>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Etat du cluster</button>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Répartition des données</button>
+        <button type="submit" class="btn btn-outline-primary" data-mode="down" >Indexes</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <button type="submit" class="btn btn-outline-primary" data-mode="down" onclick="location.href='{% url 'home' %}'">Retour</button>
+
+
+
+
+</body>
+
+</html>
