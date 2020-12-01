@@ -9,7 +9,9 @@ urlpatterns = [
     url(r'^home/$', views.home, name="home"),
     url(r'^user/$', views.user, name="user"),
     url(r'^dataAnalyst/$', views.dataAnalyst, name="dataAnalyst"),
-    url(r'^admin/$', views.admin, name="admin")
+    url(r'^admin/$', views.admin, name="admin"),
+    url(r'^executeRequest/$', views.executeRequest, name="executeRequest")
+
 ]
 
 
